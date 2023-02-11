@@ -1,0 +1,14 @@
+{
+  "name": "microsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"start": "vite"  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.1"
+  }
+}
