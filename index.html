@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="navbar flex justify-between items-center p-4">
+    <div class="navbar flex justify-between items-center p-4 ">
         <div class="flex gap-3 justify-center items-center md:order-2">
             <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -21,25 +21,41 @@
             <div class="search md:hidden">search icon</div>
         </div>
         <div class="logo text-center  md:order-1 flex ">
-            <div>Microsoft</div>
-            <div class="features w-fit md:w-auto bg-gray-200 md:bg-white absolute inset-0 md:flex md:mx-4 md:space-x-3 cursor-pointer -translate-x-96 md:translate-x-0 md:static">
-                <div class="fitem">Microsoft 365</div>
-                <div class="fitem">Teams</div>
-                <div class="fitem">Windows</div>
-                <div class="fitem">Surface</div>
-                <div class="fitem">Xbox</div>
-                <div class="fitem">Support</div>
+            <div><img src="images/RE1Mu3b.png" class="w-44 pr-4 cursor-pointer" alt=""></div>
+            <div class="features w-fit md:w-auto bg-gray-200 md:bg-white absolute inset-0 md:flex md:mx-4 md:space-x-3 cursor-pointer -translate-x-96 md:translate-x-0 md:static md:mt-2">
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Microsoft 365</div>
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Teams</div>
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Windows</div>
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Surface</div>
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Xbox</div>
+                <div class="fitem hover:underline underline-offset-8 decoration-2">Support</div>
             </div>
 
         </div>
         <div class="logo text-center md:order-3 flex gap-3">
-            <div class="search hidden md:block"> All Microsoft search icon</div>
-            <div class="">
+            <div class="search hidden md:block  hover:underline underline-offset-8 decoration-2"> All Microsoft search icon</div>
+            <div class=" hover:underline underline-offset-8 decoration-2">
                 cart &Account
 
             </div>
         </div>
 
+    </div>
+
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-white mx-2">
+        <div class="left flex flex-col justify-center items-center  md:relative md:z-10 md:top-44 py-20">
+            <h2 class=" text-4xl mt-4 mx-4 md:-ml-80 my-6 text-center">Microsoft 365</h2>
+            <p class="w-3/4 mx-5 text-left  md:-mr-1 ">Ask real questions, get better answers and turn ideas into content with your AI-powered copilot for the web</p>
+           <div class="flex flex-row space-x-5 my-8 text-center md:-ml-60 "> 
+            <button class="text-white bg-[#0067b8] font-bold p-2 rounded-md hover:bg-[#064d83]">For one person</button>
+            <p class="cursor-pointer tracking-wide text-black text-lg font-bold items-baseline my-2 hover:underline underline-offset-1">For up to six people</p>
+           </div>
+        </div>
+        <div class="right md:absolute">
+            <img src="images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif" class="" alt="">
+            
+        </div>
     </div>
 </body>
 
