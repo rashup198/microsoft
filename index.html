@@ -10,188 +10,226 @@
 </head>
 
 <body>
-    <div class="max-width-container">
-        <div class="navbar flex justify-between items-center p-4 ">
-            <div class="flex gap-3 justify-center items-center md:order-2">
-                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
-                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
-                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
-                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+
+    <div class="main-container">
+        <a href="#navbar_main"><button class="btn p-3 rounded-md bg-gray-300 fixed bottom-10 right-4 z-10"> Back to top ↑</button></a>
+        <div class="max-width-container">
+            <div id="navbar_main" class="navbar flex justify-between items-center p-4 ">
+                <div class="flex gap-3 justify-center items-center md:order-2">
+                    <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+
+                    </div>
+                    <div class="search md:hidden  mx-6">
+                        <img width="17px" src="images/search.svg" alt="">
+                    </div>
+                </div>
+                <div class="logo text-center  md:order-1 flex ">
+                    <div><img src="images/RE1Mu3b.png" class="w-44 pr-4 cursor-pointer " alt=""></div>
+                    <div
+                        class="features w-fit md:w-auto bg-gray-200 md:bg-white absolute inset-0 md:flex md:mx-4 md:space-x-3 cursor-pointer -translate-x-96 md:translate-x-0 md:static md:mt-2">
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Microsoft 365</div>
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Teams</div>
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Windows</div>
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Surface</div>
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Xbox</div>
+                        <div class="fitem hover:underline underline-offset-8 decoration-2">Support</div>
+                    </div>
 
                 </div>
-                <div class="search md:hidden  mx-6">
-                    <img width="17px" src="images/search.svg" alt="">
+                <div class="logo text-center md:order-3 flex flex-row space-x-5 cursor-pointer">
+                    <div class="search hidden md:inline  hover:underline underline-offset-8 decoration-2 mr-6"> All
+                        Microsoft
+                    </div>
+
+                    <div class="mt-0.5 hidden md:block cursor-pointer"><img width="17px" src="images/search.svg" alt="">
+                    </div>
+
+                    <div class="mt-0.5 hidden md:block cursor-pointer">
+                        <img width="17px" src="images/cart.svg" alt="">
+
+                    </div>
+                    <div class="mt-0.5 hidden md:block cursor-pointer">
+                        <img width="17px" src="images/user.svg" alt="">
+                    </div>
                 </div>
+
             </div>
-            <div class="logo text-center  md:order-1 flex ">
-                <div><img src="images/RE1Mu3b.png" class="w-44 pr-4 cursor-pointer " alt=""></div>
-                <div
-                    class="features w-fit md:w-auto bg-gray-200 md:bg-white absolute inset-0 md:flex md:mx-4 md:space-x-3 cursor-pointer -translate-x-96 md:translate-x-0 md:static md:mt-2">
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Microsoft 365</div>
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Teams</div>
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Windows</div>
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Surface</div>
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Xbox</div>
-                    <div class="fitem hover:underline underline-offset-8 decoration-2">Support</div>
-                </div>
 
-            </div>
-            <div class="logo text-center md:order-3 flex flex-row space-x-5 cursor-pointer">
-                <div class="search hidden md:inline  hover:underline underline-offset-8 decoration-2 mr-6"> All Microsoft
-                </div>
 
-                <div class="mt-0.5 hidden md:block cursor-pointer"><img width="17px" src="images/search.svg" alt=""></div>
-
-                <div class="mt-0.5 hidden md:block cursor-pointer">
-                    <img width="17px" src="images/cart.svg" alt=""> 
-                    
+            <div class="slider flex flex-col-reverse md:flex-row bg-white mx-2">
+                <div class="left flex flex-col justify-center items-center  md:relative md:z-10 md:top-20 py-20">
+                    <h2 class=" text-4xl mt-4 mx-4 md:-ml-72 my-6 text-center font-bold tracking-wide">Microsoft 365
+                    </h2>
+                    <p class="w-3/4 mx-5 text-left  md:-mr-1 ">Ask real questions, get better answers and turn ideas
+                        into
+                        content with your AI-powered copilot for the web</p>
+                    <div class="flex flex-row space-x-5 my-8 text-center md:-ml-60 ">
+                        <button class="text-white bg-[#0067b8] font-bold p-2 rounded-md hover:bg-[#064d83]">For one
+                            person</button>
+                        <p
+                            class="cursor-pointer tracking-wide text-black text-lg font-bold items-baseline my-2 hover:underline underline-offset-1">
+                            For up to six people</p>
+                    </div>
                 </div>
-                <div class="mt-0.5 hidden md:block cursor-pointer">
-                    <img width="17px" src="images/user.svg" alt="">
+                <div class="right md:absolute">
+                    <img src="images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif" class="" alt="">
+
                 </div>
             </div>
 
         </div>
 
+        <div class="promo space-y-4 flex flex-col md:flex-row flex-wrap  justify-center  lg:mt-40">
 
-        <div class="slider flex flex-col-reverse md:flex-row bg-white mx-2">
-            <div class="left flex flex-col justify-center items-center  md:relative md:z-10 md:top-20 py-20">
-                <h2 class=" text-4xl mt-4 mx-4 md:-ml-72 my-6 text-center font-bold tracking-wide">Microsoft 365</h2>
-                <p class="w-3/4 mx-5 text-left  md:-mr-1 ">Ask real questions, get better answers and turn ideas into
-                    content with your AI-powered copilot for the web</p>
-                <div class="flex flex-row space-x-5 my-8 text-center md:-ml-60 ">
-                    <button class="text-white bg-[#0067b8] font-bold p-2 rounded-md hover:bg-[#064d83]">For one
-                        person</button>
-                    <p
-                        class="cursor-pointer tracking-wide text-black text-lg font-bold items-baseline my-2 hover:underline underline-offset-1">
-                        For up to six people</p>
-                </div>
+            <div class="items flex items-center mx-4 space-x-2 mt-4 flex-col">
+                <img src="images/icon-LL-Windows-Logo-80x80 (1).webp" alt="">
+                <span
+                    class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Choose
+                    Your Microsoft 365</span>
             </div>
-            <div class="right md:absolute">
-                <img src="images/Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600.avif" class="" alt="">
 
+            <div class="items flex items-center mx-4 space-x-2 flex-col">
+                <img src="images/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80.webp" alt="">
+                <span
+                    class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Explore
+                    Surface device</span>
             </div>
+
+            <div class="items flex items-center mx-4 space-x-2 flex-col ">
+                <img src="images/icon-LL-Xbox-Logo-80x80.webp" alt="">
+                <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Buy
+                    Xbox games</span>
+            </div>
+
+            <div class="items flex items-center mx-4 space-x-2 flex-col ">
+                <img src="images/icon-LL-Windows-Logo-80x80 (1).webp" alt="">
+                <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Get
+                    Windows 11</span>
+            </div>
+
+        </div>
+
+        <div class="products flex flex-row m-20 space-x-8">
+
+            <div class="pro_items ">
+                <img src="images/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
+                <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
+                <h2 class="mt-4 text-3xl font-semibold">Surface Pro 9</h2>
+                <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in
+                    one ultra-portable device.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold ">Learn More > </span></div>
+            </div>
+
+
+            <div class="pro_items">
+                <img src="images/Content-Card-Surface-Pro-9-M1-Platinum-02-1.jfif" alt="">
+                <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
+                <h2 class=" mt-4 text-3xl font-semibold">Surface Pro 9</h2>
+                <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in
+                    one ultra-portable device.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold ">Learn More > </span></div>
+            </div>
+
+            <div class="pro_items">
+                <img src="images/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
+
+                <h2 class="mt-16 text-3xl font-semibold">Surface Pro 9</h2>
+                <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in
+                    one ultra-portable device.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+
+            <div class="pro_items">
+                <img src="images/Content-Card-Surface-Pro-9-M1-Platinum-02-1.jfif" alt="">
+
+                <h2 class="mt-16 text-3xl font-semibold">Surface Pro 9</h2>
+                <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in
+                    one ultra-portable device.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+        </div>
+
+        <div class="xbox_container m-20 flex">
+
+
+            <div class="xbox_text relative z-10 mt-60 ml-1 mx-20">
+                <h2 class=" text-4xl text-center font-bold tracking-wider align-baseline">Xbox Series S</h2>
+                <p class="text-lg text-center ml-32 my-7 ">Next-gen performance in the smallest Xbox ever </p>
+                <button
+                    class="text-white bg-[#0067b8] font-bold p-2 h-10 rounded-md hover:bg-[#064d83] relative top-1 -right-32 ">Shop
+                    now</button>
+            </div>
+
+            <div class="xbox absolute bg-white mx-2 mr-20">
+                <img src="images/gldn-XSS-Hero-Xbox-Series-S_VP5-1596x600.webp" alt="">
+            </div>
+
+        </div>
+        <div>
+            <h1 class="text-5xl font-semibold m-20 mt-52">For Bussiness</h1>
+        </div>
+        <div class="bussiness-section flex flex-row mt-1 m-20 gap-10 align-baseline">
+
+
+            <div class="bussiness-items flex-row ">
+                <img src="images/bussiness-items1.webp" alt="">
+                <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
+                <h1 class=" mt-4 text-3xl font-semibold">Surface for Business Family</h1>
+                <p class=" mt-4 text-xl">Surface for Business devices enable work on your team's terms with flexibility,
+                    built-in security and the power they need to succeed.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+
+
+            <div class="bussiness-items">
+                <img src="images/bussiness-items4.webp" alt="">
+
+                <h1 class=" mt-4 text-3xl font-semibold">Try Microsoft 365 for free</h1>
+                <p class=" mt-4 text-xl">Get Microsoft Teams, secure cloud storage and premium apps across devices with
+                    a free one-month Microsoft 365 Business Standard trial.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+
+            <div class="bussiness-items flex-row ">
+                <img src="images/bussiness-items1.webp" alt="">
+
+                <h1 class=" mt-4 text-3xl font-semibold">Surface for Business Family</h1>
+                <p class=" mt-4 text-xl">Surface for Business devices enable work on your team's terms with flexibility,
+                    built-in security and the power they need to succeed.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+
+            <div class="bussiness-items">
+                <img src="images/bussiness-items4.webp" alt="">
+
+                <h1 class=" mt-4 text-3xl font-semibold">Try Microsoft 365 for free</h1>
+                <p class=" mt-4 text-xl">Get Microsoft Teams, secure cloud storage and premium apps across devices with
+                    a free one-month Microsoft 365 Business Standard trial.</p>
+                <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span
+                        class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
+            </div>
+
+        </div>
+
+        <div class="socials flex flex-row gap-8 m-20 align-baseline">
+            <span class=" text-2xl">Follow Microsoft</span>
+            <img class="h-10 grayscale" src="socials/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" alt="">
+            <img class="h-10 grayscale" src="socials/logo-ig-instagram-new-logo-vector-download-13.png" alt="">
+            <img class="h-10 grayscale" src="socials/images.png" alt="">
+
         </div>
 
     </div>
-
-    <div class="promo space-y-4 flex flex-col md:flex-row flex-wrap  justify-center  lg:mt-40">
-
-        <div class="items flex items-center mx-4 space-x-2 mt-4 flex-col">
-            <img src="images/icon-LL-Windows-Logo-80x80 (1).webp" alt="">
-            <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Choose Your Microsoft 365</span>
-        </div>
-
-        <div class="items flex items-center mx-4 space-x-2 flex-col"> 
-            <img src="images/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80.webp" alt="">
-            <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Explore Surface device</span>
-        </div> 
-
-        <div class="items flex items-center mx-4 space-x-2 flex-col "> 
-            <img src="images/icon-LL-Xbox-Logo-80x80.webp" alt="">
-            <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Buy Xbox games</span>
-        </div>
-
-        <div class="items flex items-center mx-4 space-x-2 flex-col ">
-             <img src="images/icon-LL-Windows-Logo-80x80 (1).webp" alt="">
-            <span class="text-blue-700 cursor-pointer font-semibold text-lg underline underline-offset-1 mt-3">Get Windows 11</span>
-        </div>
-
-    </div>
-
-    <div class="products flex flex-row m-20 space-x-8">
-
-        <div class="pro_items ">
-            <img src="images/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
-            <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
-            <h2 class="mt-4 text-3xl font-semibold">Surface Pro 9</h2>
-            <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold ">Learn More > </span></div>
-        </div>
-       
-
-        <div class="pro_items">
-            <img src="images/Content-Card-Surface-Pro-9-M1-Platinum-02-1.jfif" alt="">
-            <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
-            <h2 class=" mt-4 text-3xl font-semibold">Surface Pro 9</h2>
-            <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold ">Learn More > </span></div>
-        </div>
-
-        <div class="pro_items">
-            <img src="images/gldn-XSX-CP-Xbox-Series-X.webp" alt="">
-            
-            <h2 class="mt-16 text-3xl font-semibold">Surface Pro 9</h2>
-            <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-
-        <div class="pro_items">
-            <img src="images/Content-Card-Surface-Pro-9-M1-Platinum-02-1.jfif" alt="">
-           
-            <h2 class="mt-16 text-3xl font-semibold">Surface Pro 9</h2>
-            <p class=" mt-4 text-xl">The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-    </div>
-
-    <div class="xbox_container m-20 flex">
-
-
-        <div class="xbox_text relative z-10 mt-60 ml-1 mx-20" >
-            <h2 class=" text-4xl text-center font-bold tracking-wider align-baseline">Xbox Series S</h2>
-            <p class="text-lg text-center ml-32 my-7 ">Next-gen performance in the smallest Xbox ever </p>
-            <button class="text-white bg-[#0067b8] font-bold p-2 h-10 rounded-md hover:bg-[#064d83] relative top-1 -right-32 ">Shop now</button>
-        </div>
-
-        <div class="xbox absolute bg-white mx-2 mr-20">
-            <img src="images/gldn-XSS-Hero-Xbox-Series-S_VP5-1596x600.webp" alt="">
-        </div>
-       
-    </div>
-    <div><h1 class="text-5xl font-semibold m-20 mt-52">For Bussiness</h1></div>
-    <div class="bussiness-section flex flex-row mt-1 m-20 gap-10 align-baseline">
-       
-
-        <div class="bussiness-items flex-row ">
-            <img src="images/bussiness-items1.webp" alt="">
-            <button class="btn bg-yellow-400 p-1 text-lg font-bold mt-4 rounded-sm">New</button>
-            <h1  class=" mt-4 text-3xl font-semibold">Surface for Business Family</h1>
-            <p class=" mt-4 text-xl">Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-
-
-        <div class="bussiness-items">
-            <img src="images/bussiness-items4.webp" alt="">
-            
-            <h1 class=" mt-4 text-3xl font-semibold" >Try Microsoft 365 for free</h1>
-            <p class=" mt-4 text-xl">Get Microsoft Teams, secure cloud storage and premium apps across devices with a free one-month Microsoft 365 Business Standard trial.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-
-        <div class="bussiness-items flex-row ">
-            <img src="images/bussiness-items1.webp" alt="">
-            
-            <h1  class=" mt-4 text-3xl font-semibold">Surface for Business Family</h1>
-            <p class=" mt-4 text-xl">Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-
-        <div class="bussiness-items">
-            <img src="images/bussiness-items4.webp" alt="">
-            
-            <h1 class=" mt-4 text-3xl font-semibold" >Try Microsoft 365 for free</h1>
-            <p class=" mt-4 text-xl">Get Microsoft Teams, secure cloud storage and premium apps across devices with a free one-month Microsoft 365 Business Standard trial.</p>
-            <div class="mt-9 hover:underline decoration-2 underline-offset-2"><span class="text-lg text-blue-700 font-semibold">Learn More > </span></div>
-        </div>
-
-    </div>
-    
- <div class="socials">
-    <h1>Follow Microsoft</h1>
-   
- </div>
 </body>
 
 </html>
